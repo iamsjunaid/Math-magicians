@@ -27,9 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Leaderboard <a name="about-project"></a>
+# 📖 Math-magicians <a name="about-project"></a>
 
-**Math-magicians** is an online calculator app. It contains three user navigations.
+**Math-magicians** is an online calculator app. It contains three navigations items.
 <ul>
 <li>Home</li>
 <li>Calculator</li>
