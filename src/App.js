@@ -1,3 +1,4 @@
+/* eslint linebreak-style: ["error", "windows"] */
 import './App.css';
 import Calculator from './components/calculator';
 
