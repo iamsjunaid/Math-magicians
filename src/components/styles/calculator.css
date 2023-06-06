@@ -1,0 +1,38 @@
+.container {
+  margin: 0;
+  padding: 0;
+  margin-top: 8em;
+}
+
+.row-1,
+.row-2,
+.row-3,
+.row-4,
+.row-5 {
+  display: flex;
+  justify-content: center;
+}
+
+.input-container input {
+  width: 32em;
+  height: 3.5em;
+  padding: 0;
+  background-color: #858693;
+  text-align: right;
+  color: #fff;
+}
+
+.btn {
+  width: 8em;
+  height: 58px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.btn-orange {
+  background-color: #f5913e;
+}
+
+#zero {
+  width: 16em;
+}
