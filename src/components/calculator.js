@@ -1,4 +1,3 @@
-/* eslint linebreak-style: ["error", "windows"] */
 import './styles/calculator.css';
 
 const Calculator = () => (
