@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 export default function Quote() {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [hasError, setHasError] = useState(null);
+  const [hasError, setHasError] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -21,6 +21,7 @@ export default function Quote() {
         setData(json);
       } catch (error) {
         setHasError(true);
+        console.log(hasError);
       }
       setIsLoading(false);
     };
