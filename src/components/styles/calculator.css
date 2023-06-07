@@ -13,13 +13,16 @@
   justify-content: center;
 }
 
-.input-container input {
-  width: 32em;
+.screen {
+  width: 26.5em;
   height: 3.5em;
   padding: 0;
   background-color: #858693;
   text-align: right;
   color: #fff;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .btn {
