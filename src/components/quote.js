@@ -21,7 +21,6 @@ export default function Quote() {
         setData(json);
       } catch (error) {
         setHasError(true);
-        console.log(hasError);
       }
       setIsLoading(false);
     };
