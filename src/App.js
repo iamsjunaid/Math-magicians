@@ -1,6 +1,6 @@
 import './App.css';
-import Calculator from './components/Calculator.js';
-import Quote from './components/Quote.js';
+import Calculator from './components/Calculator';
+import Quote from './components/Quote';
 import Home from './components/Home';
 
 function App() {
