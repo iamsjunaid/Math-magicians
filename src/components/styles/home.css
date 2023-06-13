@@ -1,0 +1,40 @@
+.home {
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+.img-container img {
+  width: 110%;
+}
+
+.content {
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  background-color: rgba(0, 80, 28, 0.25);
+  box-shadow: 5px 10px 8px var(--dark-green), 5px 10px 8px var(--dark-green);
+  width: 48%;
+  padding: 1em;
+  text-align: left;
+}
+
+.content h2 {
+  font-size: 3em;
+  font-weight: 700;
+  text-shadow: 2px 2px var(--dark-green);
+  color: var(--green);
+}
+
+.content p {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.content li {
+  font-size: 1.2em;
+  font-weight: 500;
+}

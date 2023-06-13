@@ -1,6 +1,21 @@
 .container {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.math-content {
+  height: 12em;
+  display: flex;
+  align-items: center;
+}
+
+.container h2 {
+  font-size: 3em;
+  font-weight: 700;
+  text-shadow: 2px 2px var(--dark-green);
+  color: var(--green);
 }
 
 .row-1,
@@ -12,27 +27,54 @@
   justify-content: center;
 }
 
+.calc {
+  background-color: var(--green);
+  padding: 1em;
+  border-radius: 0.5em;
+  box-shadow: 5px 10px 8px #888, 5px 10px 8px #888;
+}
+
 .screen {
-  width: 26.5em;
-  height: 3.5em;
-  padding: 0;
-  background-color: #858693;
+  width: 33.5em;
+  height: 4em;
+  padding: 0 1em;
+  background-color: var(--dark-green);
   text-align: right;
   color: #fff;
   margin: 0 auto;
   display: flex;
   justify-content: flex-end;
+  border-radius: 0.5em;
+  box-sizing: border-box;
+  box-shadow: 8px 4px 4px 4px var(--green), -2px 0 4px var(--dark-green);
+  text-shadow: 1px 1px 2px #000;
+  align-items: center;
 }
 
 .btn {
   width: 8em;
-  height: 58px;
-  background-color: #e0e0e0;
+  height: 4em;
+  background-color: #fff;
   cursor: pointer;
+  font-size: 1em;
+  border-radius: 0.5em;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: var(--dark-green);
+  transition: all 0.4s ease-in-out;
+  color: #fff;
 }
 
 .btn-orange {
-  background-color: #f5913e;
+  background-color: var(--dark-green);
+  color: #fff;
+}
+
+.btn-orange:hover {
+  background-color: #fff;
+  color: var(--dark-green);
 }
 
 #zero {
