@@ -169,7 +169,7 @@ I would like to thank the code reviewers for making this project better.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/iamsjunaid/math-magicians/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/iamsjunaid/math-magicians/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
