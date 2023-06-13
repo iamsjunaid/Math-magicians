@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Calculator from './components/Calculator';
