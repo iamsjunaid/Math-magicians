@@ -1,20 +1,33 @@
 import calculate from '../logic/calculate';
-import operate from '../logic/operate';
 
-describe('to test calculate logic', () => {
-  test('calculate logic', () => {
-    expect(calculate({}, 'AC')).toEqual({ total: null, next: null, operation: null });
+describe('calculate function', () => {
+  test("returns initial state when 'AC' button is clicked", () => {
+    const result = calculate({ total: '5', next: '10', operation: '+' }, 'AC');
+    expect(result).toEqual({ total: null, next: null, operation: null });
   });
-  test('calculate logic', () => {
-    expect(calculate({ total: '1', next: '2', operation: '+' }, '=')).toEqual({ total: '3', next: null, operation: null });
-  });
-});
 
-describe('to test operate logic', () => {
-  test('operate logic', () => {
-    expect(operate(1, 2, '+')).toEqual('3');
+  test('handles decimal point correctly when "." button is clicked', () => {
+    const result = calculate({ total: null, next: '5', operation: null }, '.');
+    expect(result).toEqual({ total: null, next: '5.', operation: null });
   });
-  test('operate logic', () => {
-    expect(operate(2, 1, '%')).toEqual('0');
+
+  test('performs addition when "+" button is clicked', () => {
+    const result = calculate({ total: '10', next: '5', operation: '+' }, '+');
+    expect(result).toEqual({ total: '15', next: null, operation: '+' });
+  });
+
+  test('performs subtraction when "-" button is clicked', () => {
+    const result = calculate({ total: '10', next: '5', operation: '-' }, '-');
+    expect(result).toEqual({ total: '5', next: null, operation: '-' });
+  });
+
+  test('performs modulo when "%" button is clicked', () => {
+    const result = calculate({ total: '10', next: '5', operation: '%' }, '%');
+    expect(result).toEqual({ total: '0', next: null, operation: '%' });
+  });
+
+  test('changes sign when "+/-" button is clicked', () => {
+    const result = calculate({ total: null, next: '5', operation: null }, '+/-');
+    expect(result).toEqual({ total: null, next: '-5', operation: null });
   });
 });
