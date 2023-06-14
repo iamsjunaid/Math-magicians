@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './styles/quote.css';
 
 export default function Quote() {
   const [data, setData] = useState([]);
@@ -21,7 +22,6 @@ export default function Quote() {
         setData(json);
       } catch (error) {
         setHasError(true);
-        console.log(hasError);
       }
       setIsLoading(false);
     };
@@ -38,9 +38,15 @@ export default function Quote() {
   return (
     <>
       {data.map((item) => (
-        <div key={item}>
-          <p key={item.quote}>{item.quote}</p>
-          <p key={item.author}>{item.author}</p>
+        <div key={item} className="quote-content content">
+          <p key={item.quote} className="quote">
+            {item.quote}
+          </p>
+          <br />
+          <p key={item.author} className="author">
+            -
+            {item.author}
+          </p>
         </div>
       ))}
     </>

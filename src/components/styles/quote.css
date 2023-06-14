@@ -1,0 +1,8 @@
+.quote-content {
+  margin: 0 auto;
+}
+
+.author {
+  text-decoration: underline;
+  color: var(--dark-green);
+}
