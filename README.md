@@ -34,6 +34,12 @@
 <li>Calculator</li>
 <li>Quote</li>
 </ul>
+
+It allows users to 
+
+    ☑️Read a random math-related quote.
+    ☑️Make simple calculations.
+      
  
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -82,8 +88,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: To clone or fork and run it in a browser
-
+In order to run this project you need to clone or fork and run it in a browser
 
 ### Setup
 
@@ -93,35 +98,45 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone
-  https://github.com/iamsjunaid/leaderboard
+  git clone https://github.com/iamsjunaid/leaderboard/todo-list-react.git
 ```
-
-using Ubuntu:
-
-```sh
-  cd my-desired-folder
-  git clone 
-  https://github.com/iamsjunaid/leaderboard.git
-```
-
 For more information on how to clone or fork a repository:
 - <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">How to clone a repo</a>
 - <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">How to fork a repo</a>
 
 ### Install
 
-There is no installation required.
+- To install the package 
+```sh
+npm install
+```
 
 ### Usage
 
-To run the project, open with **index.html** with any web browser.
-
-For example, for Google Chrome with Ubuntu:
+- To run the project
 
 ```sh
-  cd math-magicians
-  npm start
+npm start
+```
+
+### Tests
+
+- To test the project run the following `cmd`:
+
+```sh
+npm run test
+OR
+npm test
+```
+
+- To check the linter issues
+
+```sh
+npx eslint "**/*.{js,jsx}"
+``` 
+
+```sh
+npx stylelint "**/*.{css,scss}"
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -130,12 +145,18 @@ For example, for Google Chrome with Ubuntu:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Junaid Ahmed Syed**
+👤 Author : **Junaid Ahmed Syed**
 
-- [@GitHub](https://github.com/iamsjunaid)
-- [@Twitter](https://twitter.com/junaidahmedsd)
-- [@LinkedIn](https://www.linkedin.com/in/junaid-syed-058b2779/)
+- Github : [@GitHub](https://github.com/iamsjunaid)
+- LinkedIn : [@LinkedIn](https://www.linkedin.com/in/junaid-syed-058b2779/)
 
+<!-- COLLABORATORS -->
+
+## 👥 Collaborators <a name="authors"></a>
+
+👤 Collaborator : **Antoine Makdessy**
+
+- Github : [@GitHub](https://github.com/ANTOINE1128)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,7 +184,7 @@ If you like this project you can give a Star at project's [GitHub page](https://
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the code reviewers for making this project better.
+I would like to thank Microverse and the code reviewers for making this project better.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
