@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders FetchQuote correctly 1`] = `
+<div>
+  <div
+    class="home"
+  >
+    <section
+      class="content"
+    >
+      <h2>
+        Welcome to our page!
+      </h2>
+      <p>
+        Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+      </p>
+      <ul>
+        <li>
+          ☑️Read a random math-related quote.
+        </li>
+        <li>
+          ☑️Make simple calculations.
+        </li>
+      </ul>
+    </section>
+    <section
+      class="img-container"
+    >
+      <img
+        alt="math"
+        src="https://i.gifer.com/G0yR.gif"
+      />
+    </section>
+  </div>
+</div>
+`;
