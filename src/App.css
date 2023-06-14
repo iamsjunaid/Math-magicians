@@ -66,3 +66,18 @@ nav {
   width: 50%;
   margin: 0 auto;
 }
+
+.footer-content {
+  position: absolute;
+  bottom: 0;
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content a {
+  text-decoration: underline;
+  color: var(--dark-green);
+  font-weight: 500;
+  font-size: 1em;
+}

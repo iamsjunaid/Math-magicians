@@ -35,7 +35,7 @@
 }
 
 .screen {
-  width: 33.5em;
+  width: 27.5em;
   height: 4em;
   padding: 0 1em;
   background-color: var(--dark-green);
@@ -56,7 +56,7 @@
   height: 4em;
   background-color: #fff;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 0.8em;
   border-radius: 0.5em;
   margin: 5px;
 }
@@ -78,5 +78,5 @@
 }
 
 #zero {
-  width: 16em;
+  width: 17em;
 }

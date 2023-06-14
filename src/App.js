@@ -43,11 +43,19 @@ function App() {
           </li>
         </ul>
       </nav>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/quote" element={<Quote />} />
         <Route path="/calculator" element={<Calculator />} />
       </Routes>
+
+      <footer className="footer-content content">
+        Made with ❤️ by &nbsp;
+        <a href="https://github.com/iamsjunaid">
+          Junaid
+        </a>
+      </footer>
     </div>
   );
 }
