@@ -9,6 +9,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -26,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math-magicians <a name="about-project"></a>
+# 📖 Math-Magicians <a name="about-project"></a>
 
 **Math-magicians** is an online calculator app. It contains three navigations items.
 <ul>
@@ -79,6 +80,12 @@ It allows users to
 
 *Performs mathematical operations*<br>
 *Beautiful UI*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://math-magicians-cg1v.onrenader.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
