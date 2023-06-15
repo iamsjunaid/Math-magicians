@@ -1,7 +1,7 @@
  
 <a id="readme-top"></a>
 
-# Math-magicians
+# Math-Magicians
 
 # 📗 Table of Contents
 
