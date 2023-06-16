@@ -1,7 +1,7 @@
  
 <a id="readme-top"></a>
 
-# Math-Magicians
+# Math magicians
 
 # 📗 Table of Contents
 
@@ -29,7 +29,7 @@
 
 # 📖 Math-Magicians <a name="about-project"></a>
 
-**Math-magicians** is an online calculator app. It contains three navigations items.
+**Math magicians** is an online calculator app. It contains three navigations items.
 <ul>
 <li>Home</li>
 <li>Calculator</li>
@@ -71,6 +71,13 @@ It allows users to
   <summary>ReactJS</summary>
   <ul>
     <li><a href="https://legacy.reactjs.org/docs/getting-started.html">ReactJS</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Jest</summary>
+  <ul>
+    <li><a href="https://jestjs.io/">Jest</a></li>
   </ul>
 </details>
 
