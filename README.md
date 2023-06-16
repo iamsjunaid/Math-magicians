@@ -29,7 +29,7 @@
 
 # 📖 Math-Magicians <a name="about-project"></a>
 
-**Math magicians** is an online calculator app. It contains three navigations items.
+**Math magicians** Math magicians is an online calculator app. It has a beautiful UI and it consist of three navigation items. The homepage shows what the app can do, the quote page shows a unique quote on every time you refresh the browser. The last page consist of a calculator that can perform mathematical operations.
 <ul>
 <li>Home</li>
 <li>Calculator</li>
